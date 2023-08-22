@@ -100,3 +100,16 @@ console.log("Addition defination :",factoryFunction('addition'));
 // console.log("Subtract defination :",factoryFunction('subtract'));
 // console.log("Multiply defination :",factoryFunction('multiply'));
 // console.log("Divide defination :",factoryFunction('divide'));
+
+const ceilFunction =(...numbers)=>{
+    result = Math.ceil(numbers)
+    return result;
+}
+
+console.log("ceil : ",ceilFunction(9.5));
+
+const floorFunction =(...numbers)=>{
+    result=Math.floor(numbers)
+    return result;
+}
+console.log("floor : ",floorFunction(9.5));
